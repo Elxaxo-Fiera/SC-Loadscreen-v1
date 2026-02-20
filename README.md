@@ -11,7 +11,6 @@ servidores FiveM.
 2.  Añade en tu `server.cfg`:
 
 ```{=html}
-<!-- -->
 ```
    ** ensure servicio_loadscreen
     loadscreen 'servicio_loadscreen'**
