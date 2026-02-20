@@ -13,7 +13,7 @@ servidores FiveM.
 ```{=html}
 ```
    ** ensure servicio_loadscreen
-    loadscreen 'servicio_loadscreen'**
+    loadscreen 'servicio_loadscreen'** ```
 
 ----------------
 
