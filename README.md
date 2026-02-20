@@ -7,25 +7,24 @@ servidores FiveM.
 
 ## :package: Instalación
 
-1.  Coloca la carpeta en `resources`
+1.  Coloca la loadscreen en `resources`
 2.  Añade en tu `server.cfg`:
 
-```{=html}
 ```
-   ** ensure servicio_loadscreen
-    loadscreen 'servicio_loadscreen'** ```
-
+    ensure servicio_loadscreen
+    loadscreen 'servicio_loadscreen'
+```
 ----------------
 
 ## :clapper: Cambiar Video
 
 Sustituye el archivo de video y renómbralo como:
 
-    **video**
+    video
 
 ----------------
 
-## :frame_photo: Cambiar Fotos
+## 🎞️ Cambiar Fotos
 
 Ruta: `fotos/`
 
@@ -35,7 +34,7 @@ Ruta: `fotos/`
 
 ⚠ La imagen debe llamarse:
 
-    **photo**
+    photo
 
 ----------------
 
