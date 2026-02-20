@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC-Sciprts - Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<div style="position: fixed; top: 3px; left: 50%; transform: translateX(-50%); font-size: 8px; opacity: 0.5; font-family: 'Inter', sans-serif; pointer-events: none; z-index: 9999;">
+    By SC-Scripts
+</div>
+    <div id="cursor"></div>
+
+    <!-- Redes Sociales -->
+    <div class="social-links">
+        <a href="#" id="link-discord" class="social-btn">
+            <div class="icon discord"></div>
+        </a>
+        <a href="#" id="link-youtube" class="social-btn">
+            <div class="icon youtube"></div>
+        </a>
+        <a href="#" id="link-tiktok" class="social-btn">
+            <div class="icon tiktok"></div>
+        </a>
+        <a href="#" id="link-twitch" class="social-btn">
+            <div class="icon twitch"></div>
+        </a>
+    </div>
+
+    <div class="video-background">
+
+        <video id="bgVideo" src="video/video.mp4" autoplay loop muted playsinline></video>
+        <div class="vignette"></div>
+    </div>
+
+    <main class="main-content">
+        <div class="logo-area">
+            <img src="logo/logo.png" alt="Logo" class="main-logo">
+            <h1 class="brand-name">Servicio<span>Conectado</span></h1>
+        </div>
+
+        <div class="team-sidebar">
+            <div class="sidebar-header">
+                <span class="line"></span>
+                <h3>EQUIPO</h3>
+            </div>
+            <div class="team-list">
+                <div class="member-card">
+                    <div class="avatar-container">
+                        <img src="fotos/1/photo.png" alt="SC-Scripts"
+                            onerror="this.src='https://i.imgur.com/8mX0O87.png'">
+                    </div>
+                    <div class="member-meta">
+                        <span class="role">FUNDADOR</span>
+                        <span class="name">SC-Discord</span>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="avatar-container">
+                        <img src="fotos/2/photo.png" alt="SC-Scripts"
+                            onerror="this.src='https://i.imgur.com/8mX0O87.png'">
+                    </div>
+                    <div class="member-meta">
+                        <span class="role">Co-Fundador</span>
+                        <span class="name">SC-Scripts</span>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="avatar-container">
+                        <img src="fotos/3/photo.png" alt="SC-Scripts"
+                            onerror="this.src='https://i.imgur.com/8mX0O87.png'">
+                    </div>
+                    <div class="member-meta">
+                        <span class="role">PROGRAMADOR</span>
+                        <span class="name">SC-Clothing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-interface">
+            <div class="loading-section">
+                <div class="loading-header">
+                    <span id="label">CARGANDO...</span>
+                    <span id="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="loadbar" id="loadbar"></div>
+                    <div class="loadbar-glow"></div>
+                </div>
+            </div>
+
+            <div id="pause-overlay">
+                <span>SONIDO SILENCIADO</span>
+            </div>
+
+            <div class="music-player">
+                <div class="song-info">
+                    <span class="title" id="muteStatus">SONIDO: ACTIVADO</span>
+                    <span class="action">PRESIONA <kbd>ESPACIO</kbd> PARA MUTEAR</span>
+                </div>
+                <div class="player-controls">
+                    <button id="toggleMute" class="play-btn">
+                        <div class="volume-icon"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
