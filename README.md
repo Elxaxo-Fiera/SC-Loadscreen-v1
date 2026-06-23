@@ -113,6 +113,6 @@ Editar en `style.css`:
 Puedes buscar en Google: **Color Hex** para elegir colores fácilmente.
 
 ----------------
-**Web de como quedaria en FiveM:** https://sc-loadscreen-v1.wuaze.com/
+**Web de como quedaria en FiveM:** https://servicioconectado.com/sc-loadscreen-v1/
 ----------------
 © Servicio Conectado
